@@ -31,6 +31,11 @@
             bindings = <&kp RIGHT_SHIFT>;
             key-positions = <20 21>;
         };
+
+        layer-shift-number {
+            bindings = <&mo 3>;
+            key-positions = <13 14 15>;
+        };
     };
 
     keymap {
@@ -87,12 +92,12 @@
             >;
         };
 
-        layer_3 {
+        symbols-shift {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&kp ESC  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp BSPC    &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &trans
+&trans   &trans        &trans      &trans         &trans        &trans      &trans         &trans        &trans        &trans        &trans        &trans
+&trans   &trans        &trans      &trans         &trans        &trans      &trans         &trans        &trans        &trans        &trans        &trans
+                                   &trans         &trans        &trans      &trans         &trans        &trans
             >;
         };
 
