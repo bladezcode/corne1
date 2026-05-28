@@ -105,10 +105,10 @@
 
         symbols-shift {
             bindings = <
-&kp ESC  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp BSPC    &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &trans
-&trans   &trans        &trans      &trans         &trans        &trans      &trans         &trans        &trans        &trans        &trans        &trans
-&trans   &trans        &trans      &trans         &trans        &trans      &trans         &trans        &trans        &trans        &trans        &trans
-                                   &trans         &trans        &trans      &trans         &trans        &trans
+&kp ESC  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &kp F6  &kp F7  &kp F8  &kp F9  &kp C_VOL_DN  &kp C_VOLUME_UP
+&trans   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans        &trans
+&trans   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans        &trans
+                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
 
