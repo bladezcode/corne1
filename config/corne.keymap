@@ -13,32 +13,32 @@
     combos {
         compatible = "zmk,combos";
 
-        CTRL-AS {
+        CTRL_as {
             bindings = <&kp LEFT_CONTROL>;
             key-positions = <13 14>;
         };
 
-        Shift-sd {
+        Shift_sd {
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <14 15>;
         };
 
-        CTRL-kl {
+        CTRL_kl {
             bindings = <&kp RCTRL>;
             key-positions = <21 22>;
         };
 
-        Shift-KL {
+        Shift_jk {
             bindings = <&kp RIGHT_SHIFT>;
             key-positions = <20 21>;
         };
 
-        LGUI-df {
+        LGUI_df {
             bindings = <&kp LGUI>;
             key-positions = <15 16>;
         };
 
-        RGUI-jk {
+        RGUI_jk {
             bindings = <&kp RGUI>;
             key-positions = <19 20>;
         };
