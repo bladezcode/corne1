@@ -114,13 +114,22 @@
 
         mouse_mode {
             bindings = <
-&trans  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans  &trans    &trans          &mkp LCLK       &mkp RCLK     &trans           &trans  &trans
-&trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &trans
-&trans  &trans          &trans          &trans           &trans  &trans    &trans          &trans          &trans        &trans           &trans  &trans
-                                        &trans           &trans  &trans    &trans          &trans          &trans
+&trans  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans  &trans    &trans     &kp SPACE  &kp SPACE  &trans     &trans  &trans
+&trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans    &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &trans  &trans
+&trans  &trans          &trans          &trans           &trans  &trans    &trans     &trans     &trans     &trans     &trans  &trans
+                                        &trans           &trans  &trans    &trans     &trans     &trans
             >;
 
             label = "Mouse_mode";
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
         };
     };
 };
