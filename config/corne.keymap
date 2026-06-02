@@ -51,7 +51,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            display-name = "ゼロDefault";
+            display-name = "Default";
 
             // -----------------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BSPC |
@@ -68,7 +68,7 @@
         };
 
         Numpad {
-            display-name = "いちNumpad";
+            display-name = "Numpad";
 
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BSPC |
@@ -85,7 +85,7 @@
         };
 
         symbols_layer {
-            display-name = "記号Symbols";
+            display-name = "Symbols";
 
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BSPC |
@@ -109,7 +109,7 @@
                                               &trans            &trans  &trans    &trans  &trans            &trans
             >;
 
-            label = "余分Extra";
+            label = "Extra";
         };
 
         mouse_mode {
@@ -120,7 +120,7 @@
                                         &trans           &trans  &trans    &trans    &trans     &trans
             >;
 
-            label = "マウスMouse";
+            label = "Mouse";
         };
     };
 };
