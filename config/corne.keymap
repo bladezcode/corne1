@@ -49,6 +49,66 @@
             bindings = <&mo 2>;
             key-positions = <37 40>;
         };
+
+        exclamation {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <1 13>;
+            layers = <0>;
+        };
+
+        at {
+            bindings = <&kp AT_SIGN>;
+            key-positions = <2 14>;
+            layers = <0>;
+        };
+
+        hash {
+            bindings = <&kp HASH>;
+            key-positions = <3 15>;
+            layers = <0>;
+        };
+
+        dollar_sign {
+            bindings = <&kp DOLLAR>;
+            key-positions = <4 16>;
+            layers = <0>;
+        };
+
+        percent {
+            bindings = <&kp PERCENT>;
+            key-positions = <5 17>;
+            layers = <0>;
+        };
+
+        caret {
+            bindings = <&kp CARET>;
+            key-positions = <6 18>;
+            layers = <0>;
+        };
+
+        ampersand {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <7 19>;
+            layers = <0>;
+        };
+
+        asterisk {
+            bindings = <&kp ASTRK>;
+            key-positions = <8 20>;
+            layers = <0>;
+        };
+
+        leftparent {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <9 21>;
+            layers = <0>;
+        };
+
+        rightparent {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <10 22>;
+            layers = <0>;
+        };
     };
 
     keymap {
@@ -81,9 +141,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&bt BT_NXT  &trans  &trans  &trans  &trans  &trans    &kp MINUS  &kp N1  &kp N2  &kp N3  &trans  &kp BSPC
+&bt BT_NXT  &trans  &trans  &trans  &trans  &trans    &kp MINUS  &kp N7  &kp N8  &kp N9  &kp N0  &kp BSPC
 &kp ESC     &trans  &trans  &trans  &trans  &trans    &kp EQUAL  &kp N4  &kp N5  &kp N6  &trans  &trans
-&kp LSHFT   &trans  &trans  &trans  &trans  &trans    &kp FSLH   &kp N7  &kp N8  &kp N9  &kp N0  &trans
+&kp LSHFT   &trans  &trans  &trans  &trans  &trans    &kp FSLH   &kp N1  &kp N2  &kp N3  &kp N0  &trans
                             &trans  &trans  &trans    &trans     &trans  &trans
             >;
         };
@@ -107,10 +167,10 @@
 
         Media {
             bindings = <
-&kp ESC  &kp C_BRI_DEC  &kp C_BRIGHTNESS_INC  &kp LC(UP_ARROW)  &kp F4  &kp F5    &kp F6  &kp K_PLAY_PAUSE  &kp F8  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOLUME_UP
-&trans   &trans         &trans                &trans            &trans  &trans    &trans  &trans            &trans  &trans      &trans        &trans
-&trans   &trans         &trans                &trans            &trans  &trans    &trans  &trans            &trans  &trans      &trans        &trans
-                                              &trans            &trans  &trans    &trans  &trans            &trans
+&bt BT_NXT  &kp C_BRI_DEC  &kp C_BRIGHTNESS_INC  &kp LC(UP_ARROW)  &kp F4  &kp F5    &kp F6  &kp K_PLAY_PAUSE  &kp F8  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOLUME_UP
+&trans      &trans         &trans                &trans            &trans  &trans    &trans  &trans            &trans  &trans      &trans        &trans
+&trans      &trans         &trans                &trans            &trans  &trans    &trans  &trans            &trans  &trans      &trans        &trans
+                                                 &trans            &trans  &trans    &trans  &trans            &trans
             >;
 
             label = "Extra";
